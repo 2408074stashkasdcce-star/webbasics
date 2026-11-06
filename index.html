@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        body{
+            background-color: bisque;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <H3>Presenting to you</H3>
+    <h1>WEB DEVELOPMENT BASICS</h1>
+    <H3>By Prof. Arun Naik</H3>
+    <div name="obj">
+        <h3>Course Objectives:</h3>
+        <H4>1. Core Technical Foundations</H4>
+        <H4>2. Client-Side Interactivity</H4>
+        <H4>3. Professional Workflows & Tooling</H4><br>
+        <H3>From 16th November to 30th November</H3><br>
+    </div>
+    <h3><u>Calling Out to those who are interested</u></h3>
+    <p>Fill the Form below</p>
+    <form onsubmit="message()">
+        <label>Name:
+            <input type="text" required>
+        </label><br>
+
+         <label>Gender:
+            <input type="radio" value="female" name="gender">Female
+            <input type="radio" value="male" name="gender">Male
+        </label><br>
+        
+        <label>Email:
+            <input type="email" required>
+        </label><br>
+        
+         <label>Phone Number:
+            <input type="tel" required>
+        </label><br>
+
+         <label>Address:
+            <input type="text" required>
+        </label><br><br>
+
+        <button type="submit">SUBMIT FORM</button>
+    </form>
+    <script>
+        function message(){
+            alert("FORM SUBMITTED SUCESSFULLY!");
+            return false;
+        }
+    </script>
+
+</body>
+</html>
